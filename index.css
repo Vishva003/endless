@@ -1,0 +1,383 @@
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+    background-color: #fff;
+}
+.head{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.headimg{
+    height: 45px;
+    width: 45px;
+}
+.headerimg{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+
+}
+.head1{
+    width: 500px;
+    padding: 3px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.container1{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.con1{
+    width: 500px;
+    padding: 10px 0px;
+    background-color: #fff;
+}
+#time1{
+    color: grey;
+    font-size: small;
+    margin: 10px 0px;
+}
+.text1{
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin: 10px 0px ;
+    margin-bottom: 20px;
+}
+.text2{
+    letter-spacing: 0.5px;
+}
+.conbtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin:15px 0px;
+}
+.con1btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    border-radius: 25px;
+}
+.conankr{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.icon1{
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+
+}
+.spot{
+    color: rgb(209, 35, 35);
+    font-size: 14px;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    line-height: 1.3rem;
+    letter-spacing: 0px;
+}
+.profile{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.profile1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profileimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+    border-radius: 50%;
+
+}
+.profdata{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profname{
+    line-height: 1.3rem;
+    letter-spacing: 0.50px;
+}
+.profname1{
+    color: grey;
+    line-height: 1.3rem;
+    letter-spacing: 0.50px;
+}
+.carouselsection{
+    display: flex;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.carouselsection::-webkit-scrollbar {
+    display: none;
+  }
+.carousel{
+    height: 620px;
+    margin:0px 15px;
+    padding: 5px 0px;
+}
+.carimg{
+    height: 580px;
+    border-radius: 15px;
+
+}
+.carimg1{
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px 2px #aaaaaa;
+    
+}
+.cartxt{
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: gray;
+}
+  
+.container2{
+    background-color: #fff;
+    margin: 20px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.messages{
+    margin: 5px 0px;
+    width: 500px;
+    align-items: left;
+}
+.content h1{
+    font-size: 25px;
+}
+.chat{
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.chat a{
+    color: #000;
+}
+.profileimg{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px  
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mypic{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px ;
+}
+.time{
+    margin: 0px 10px;
+}
+.clr{
+    background-color: #f7f7f7;
+    font-size: 17px;
+}
+.con3brd{
+    margin: 5px 0px;
+    border-radius: 15px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+   
+}
+.con3brd i{
+    font-size: 22px;
+}
+.con3icon{
+    border: 1px solid #d7d4d4;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 20px 0px;
+
+}
+.monthly{
+    display: flex;
+}
+.monthname{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.monprice{
+    margin-left: 10px;
+    color: #aaaaaa;
+}
+.subbtn{
+    background-color: #000;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 17px;
+    border: 0px;
+    margin-right: 10px;
+}
+.chatbtn{
+    background-color: #d7d4d4;
+    padding: 10px 15px;
+    width: auto;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 17px;
+}
+.list{
+    border-top: 1px solid #ede9e9;
+    padding: 10px 0px;
+}
+.list1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0px;
+    margin-left: 4px;
+}
+.list1 span{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.proff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the accordion */
+.accordion {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+  }
+
+  .accordion-button {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    margin-top: 5px;
+    text-align: left;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+
+  }
+
+  
+  .accordion-item{ 
+     margin:5px 0px;
+  }
+
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .icon {
+    float: right;
+  }
+
+  /* Active state for the accordion item */
+  .active {
+    display: block;
+  }
+  .msgicon{ 
+     position: absolute;
+     bottom: 20px;
+     right:10px;
+     background-color:#000;
+     color:#fff;
+  }
+  .conmar{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .footer{
+    width: 500px;
+    padding: 10px;
+    margin-top: 30px;
+    
+  }
+  .copyrights{
+    color: #aaaaaa;
+    display: flex;
+    justify-content: left;
+  }
+  .copyrights span{
+    margin-left: 10px;
+  }
+/* footer */
+.footer1{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.footbtn{
+    background-color: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 0px;
+}
+.footbtn i{
+    color: #fff;
+    font-size: 20px;
+}
+.msg1{
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    right: 0px;
+
+}
